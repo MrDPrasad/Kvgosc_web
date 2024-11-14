@@ -76,47 +76,53 @@
         <div class="container mx-auto px-4 py-4 flex flex-col md:flex-row md:justify-between items-start md:items-center md:px-8">
             <div class="text-xl md:text-3xl font-bold mb-2 md:mb-0 text-left">K V G C E O S C</div>
             <nav class="flex space-x-4 text-sm md:text-base text-left mt-2 md:mt-0">
-                <a href="index.html" class="hover:text-gray-300">Home</a>
-                <a href="events.html" class="hover:text-gray-300">Events</a>
-                <a href="blogs.html" class="hover:text-gray-300">Blogs</a>
-                <a href="team.html" class="hover:text-gray-300">Team</a>
+                <a href="../index.html" class="hover:text-gray-300">Home</a>
+                <a href="../events.html" class="hover:text-gray-300">Events</a>
+                <a href="#" class="hover:text-gray-300">Blogs</a>
+                <a href="../team.html" class="hover:text-gray-300">Team</a>
                 <a href="#" class="hover:text-gray-300">WOR</a>
             </nav>
         </div>
     </header>
 
-    <main class="container mx-auto px-4 py-8 md:px-8 responsive-container">
+    <main class="container mx-auto px-4 py-8 md:px-8 max-w-3xl">
         <!-- Blog Main Section -->
         <div class="blog-main">
             <!-- Blog Item with White Background and Hover Effect -->
-            <div class="blog-item flex">
-                <!-- Image Section (40% width) -->
-                <div class="image-section">
-                    <img src="details_imgs/Invitation.jpg" alt="Inauguration of Our College Open Source Community">
+            <div class="blog-item flex flex-col items-center">
+                <!-- Image Section (Centered) -->
+                <div class="image-section mb-6 w-full max-w-3xl">
+                    <img src="details_imgs/OSC Members.jpg" alt="Inauguration of Our College Open Source Community" class="mx-auto w-full">
                 </div>
-                <!-- Content Section (60% width) -->
-                <div class="content-section">
+    
+                <!-- Content Section (Same Width as Image) -->
+                <div class="content-section w-full max-w-3xl pl-0 md:pl-6">
                     <h2 class="text-2xl font-bold blog-title">Inauguration of Our College Open Source Community</h2>
-                    <p class="text-lg mt-2">Our college launched its Open Source Community on November 15, 2024, led by Principal Dr. Suresha V and CEO Dr. Ujwal U J. The community fosters collaboration and hands-on learning, inviting students to join impactful projects, workshops, and coding sessions. We look forward to building a collaborative digital future together! </p>
-
+                    <p class="text-lg text-justify">
+                        Our college launched its Open Source Community on November 15, 2024, led by Principal Dr. Suresha V and CEO Dr. Ujwal U J. The community fosters collaboration and hands-on learning, inviting students to join impactful projects, workshops, and coding sessions. We look forward to building a collaborative digital future together!
+                    </p>
+    
                     <h3 class="text-xl font-semibold mt-6">Details</h3>
-                    <p class="text-lg mt-2">November 15, 2024, marks a significant milestone for our college as we proudly launched our very own Open-Source Community. This inaugural event, held with great enthusiasm and support from faculty and students, reflects our institution’s commitment to fostering a culture of collaboration, innovation, and technological advancement.
-                        The inauguration ceremony was honored by the presence of our distinguished, CEO, Dr. Ujwal U J and Principal, Dr. Suresha V, who together with our Community President, Vice President, and technical core members, officially launched the community. Their words of encouragement underscored the importance of open-source development in today’s tech landscape and how this community can serve as a platform for our students to connect, learn, and contribute meaningfully to the world of technology.
+                    <p class="text-lg text-justify">
+                        November 15, 2024, marks a significant milestone for our college as we proudly launched our very own Open-Source Community. This inaugural event, held with great enthusiasm and support from faculty and students, reflects our institution’s commitment to fostering a culture of collaboration, innovation, and technological advancement.
+                        The inauguration ceremony was honored by the presence of our distinguished CEO, Dr. Ujwal U J, and Principal, Dr. Suresha V, who together with our Community President, Vice President, and technical core members, officially launched the community. Their words of encouragement underscored the importance of open-source development in today’s tech landscape and how this community can serve as a platform for our students to connect, learn, and contribute meaningfully to the world of technology.
                         The event began with a warm welcome speech by our Community President, who shared the vision, mission, and goals of our Open-Source Community. He emphasized the community’s aim to create a space where students can experiment, build skills, and collaborate on projects that have a real-world impact. The President also outlined the open-source philosophy, highlighting the importance of shared knowledge, transparency, and the endless possibilities that arise from a collaborative approach to software development.
                         Following this, Dr. Suresha V, our principal, spoke on the significance of open-source initiatives in shaping the future of technology. He highlighted how this community aligns with our college’s mission to equip students with the skills and knowledge needed to excel in a rapidly evolving digital landscape. Dr. Ujwal U J, our CEO, also shared inspiring insights, emphasizing the value of open-source as a pathway for students to gain hands-on experience, expand their networks, and make meaningful contributions to the global tech community.
                         The technical core members then presented an overview of some exciting projects the community will be focusing on. From software development and web applications to AI and machine learning projects, students have a variety of ways to participate and contribute. The community will regularly hold workshops, coding sessions, and discussions with industry professionals to ensure members receive practical experience and guidance.
                         In addition to technical learning, the community aims to foster personal growth and leadership skills among its members. Through teamwork and collaboration, students will not only learn to code but also to lead, organize, and mentor one another. The inauguration concluded with an invitation to all students to join the community and actively engage in its activities.
                         The enthusiasm and energy in the room were palpable, a testament to the shared ambition of everyone involved. This is just the beginning of what we hope will be an exciting and rewarding journey. As our Open-Source Community takes its first steps, we are excited to see how it will evolve and positively impact both our college and the larger tech community.
                         We invite all students, regardless of their background or experience level, to be part of this journey. Together, we can innovate, create, and contribute to a better, more collaborative digital world. Stay tuned for more updates, events, and project highlights from our Open-Source Community!
-                        </p>
-
+                    </p>
+    
                     <div class="mt-8">
-                        <a href="/Kvgosc_web/blogs.html" class="text-blue-500 hover:underline">Back to Blog Listings</a>
+                        <a href="../blogs.html" class="text-blue-500 hover:underline">Back to Blog Listings</a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    
+    
 
     <footer class="bg-blue-700 text-white py-8 mt-16">
         <div class="container mx-auto md:text-left">
@@ -155,5 +161,6 @@
             </div>
         </div>
     </footer>
+
 </body>
 </html>

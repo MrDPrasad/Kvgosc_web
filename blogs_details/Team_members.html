@@ -76,55 +76,95 @@
         <div class="container mx-auto px-4 py-4 flex flex-col md:flex-row md:justify-between items-start md:items-center md:px-8">
             <div class="text-xl md:text-3xl font-bold mb-2 md:mb-0 text-left">K V G C E O S C</div>
             <nav class="flex space-x-4 text-sm md:text-base text-left mt-2 md:mt-0">
-                <a href="index.html" class="hover:text-gray-300">Home</a>
-                <a href="events.html" class="hover:text-gray-300">Events</a>
-                <a href="blogs.html" class="hover:text-gray-300">Blogs</a>
-                <a href="team.html" class="hover:text-gray-300">Team</a>
+                <a href="../index.html" class="hover:text-gray-300">Home</a>
+                <a href="../events.html" class="hover:text-gray-300">Events</a>
+                <a href="#" class="hover:text-gray-300">Blogs</a>
+                <a href="../team.html" class="hover:text-gray-300">Team</a>
                 <a href="#" class="hover:text-gray-300">WOR</a>
             </nav>
         </div>
     </header>
 
-    <main class="container mx-auto px-4 py-8 md:px-8 responsive-container">
+    <main class="container mx-auto px-4 py-8 md:px-8 max-w-3xl">
         <!-- Blog Main Section -->
         <div class="blog-main">
             <!-- Blog Item with White Background and Hover Effect -->
-            <div class="blog-item flex">
-                <!-- Image Section (40% width) -->
-                <div class="image-section">
-                    <img src="details_imgs/OSC Members.jpg" alt="Inauguration of Our College Open Source Community">
+            <div class="blog-item flex flex-col items-center">
+                <!-- Image Section (Centered) -->
+                <div class="image-section mb-6">
+                    <img src="details_imgs/OSC Members.jpg" alt="Inauguration of Our College Open Source Community" class="mx-auto">
                 </div>
-                <!-- Content Section (60% width) -->
-                <div class="content-section">
-                    <h2 class="text-2xl font-bold blog-title">The Visionaries Behind Our Open Source Community</h2>
-                    <p class="text-lg mt-2">Our college’s Open Source Community is led by a dedicated team, including President Nithish Vasanth, Vice President Durga Prasad N, and other key members who manage technical projects, events, finances, and marketing. Together, they create an inclusive space for students to learn, collaborate, and make impactful contributions. With their guidance, the community is set to drive innovation and growth in open-source development. </p>
-
-                    <h3 class="text-xl font-semibold mt-6">Details</h3>
-                    <p class="text-lg mt-2">Our college’s Open-Source Community is driven by a passionate and dedicated team, each bringing unique skills and a commitment to fostering innovation and collaboration. With a vision to make open-source development accessible and impactful, our team works tirelessly to create an inclusive space for students to learn, build, and grow together. Let’s introduce the talented individuals who make this community a reality:
-                        President: Nithish Vasanth
-                        As President, Nithish Vasanth leads our community with a focus on innovation, inclusivity, and student empowerment. He oversees the community’s operations, ensuring that our goals align with students' aspirations. Nithish’s leadership inspires members to reach their full potential and drives the team to maintain a high standard of excellence.
-                        Vice President: Durga Prasad N
-                        Durga Prasad N supports the President in all aspects, bringing strong organizational skills and strategic insights to the community. As Vice President, he is dedicated to creating a supportive environment for members and ensuring that everyone has opportunities to learn and contribute.
-                        Secretary: Manikanta S
-                        Manikanta S plays a crucial role as Secretary, handling the documentation, communication, and scheduling necessary for the community to function smoothly. His organizational skills and attention to detail keep the team on track and ensure that all events and projects run seamlessly.
-                        Technical Leads: Keerthan V and Nithish Kumar M S
-                        Our Technical Leads, Keerthan V and Nithish Kumar M S, guide the community’s projects with expertise and enthusiasm. They mentor members in various technical domains, from software development to AI and web technologies, fostering a collaborative learning environment where everyone can enhance their skills. Keerthan and Nithish Kumar are dedicated to ensuring that our projects are innovative and impactful.
-                        Treasurer: Ajay P
-                        Ajay P manages the community’s finances as Treasurer, ensuring that funds are used effectively to support our initiatives and events. His meticulous budgeting and planning allow the team to pursue projects and host workshops, making it possible for members to access valuable resources without financial barriers.
-                        Marketing Lead: Ashith K E
-                        Ashith K E, our Marketing Lead, is responsible for promoting the community’s activities and engaging with a broader audience. His creativity and communication skills ensure that our events reach as many students as possible, fostering interest in open-source development and attracting new members to join the community.
-                        Event Lead: Anvith S U
-                        As Event Lead, Anvith S U organizes workshops, hackathons, and meetups that bring our community together. His passion for event planning and collaboration helps create experiences that are both educational and enjoyable, making our community an exciting place to learn and connect.
-                        Together, this team of dedicated leaders shapes the vision and direction of our Open Source Community, striving to make it a supportive and innovative space for students. Their combined efforts ensure that we have a dynamic, inclusive community where everyone has a chance to contribute, grow, and build meaningful projects. With such a talented and driven team at the helm, we are excited to see what the future holds for our community and look forward to making a lasting impact on our college and beyond.
+    
+                <!-- Content Section (Aligned Below Image) -->
+                <div class="content-section container mx-auto px-4 py-8">
+                    <h2 class="text-2xl font-bold text-center mb-4">The Visionaries Behind Our Open Source Community</h2>
+                    <p class="text-lg text-justify mb-6">
+                        Our college’s Open Source Community is led by a dedicated team, including President Nithish Vasanth, Vice President Durga Prasad N, and other key members who manage technical projects, events, finances, and marketing. Together, they create an inclusive space for students to learn, collaborate, and make impactful contributions. With their guidance, the community is set to drive innovation and growth in open-source development.
+                    </p>
+                    <h3 class="text-xl font-semibold mb-4">Details</h3>
+                    <p class="text-lg text-justify mb-6">
+                        Our college’s Open-Source Community is driven by a passionate and dedicated team, each bringing unique skills and a commitment to fostering innovation and collaboration. With a vision to make open-source development accessible and impactful, our team works tirelessly to create an inclusive space for students to learn, build, and grow together.
+                    </p>
+    
+                    <!-- Team Member Details -->
+                    <div class="person-detail mb-6">
+                        <p class="text-xl font-semibold">President: Nithish Vasanth</p>
+                        <p class="text-lg text-justify">
+                            As President, Nithish Vasanth leads our community with a focus on innovation, inclusivity, and student empowerment. He oversees the community’s operations, ensuring that our goals align with students' aspirations. Nithish’s leadership inspires members to reach their full potential and drives the team to maintain a high standard of excellence.
                         </p>
-
-                    <div class="mt-8">
-                        <a href="/Kvgosc_web/blogs.html" class="text-blue-500 hover:underline">Back to Blog Listings</a>
+                    </div>
+    
+                    <div class="person-detail mb-6">
+                        <p class="text-xl font-semibold">Vice President: Durga Prasad N</p>
+                        <p class="text-lg text-justify">
+                            Durga Prasad N supports the President in all aspects, bringing strong organizational skills and strategic insights to the community. As Vice President, he is dedicated to creating a supportive environment for members and ensuring that everyone has opportunities to learn and contribute.
+                        </p>
+                    </div>
+    
+                    <div class="person-detail mb-6">
+                        <p class="text-xl font-semibold">Secretary: Manikanta S</p>
+                        <p class="text-lg text-justify">
+                            Manikanta S plays a crucial role as Secretary, handling the documentation, communication, and scheduling necessary for the community to function smoothly. His organizational skills and attention to detail keep the team on track and ensure that all events and projects run seamlessly.
+                        </p>
+                    </div>
+    
+                    <div class="person-detail mb-6">
+                        <p class="text-xl font-semibold">Technical Leads: Keerthan V and Nithish Kumar M S</p>
+                        <p class="text-lg text-justify">
+                            Our Technical Leads, Keerthan V and Nithish Kumar M S, guide the community’s projects with expertise and enthusiasm. They mentor members in various technical domains, from software development to AI and web technologies, fostering a collaborative learning environment where everyone can enhance their skills.
+                        </p>
+                    </div>
+    
+                    <div class="person-detail mb-6">
+                        <p class="text-xl font-semibold">Treasurer: Ajay P</p>
+                        <p class="text-lg text-justify">
+                            Ajay P manages the community’s finances as Treasurer, ensuring that funds are used effectively to support our initiatives and events. His meticulous budgeting and planning allow the team to pursue projects and host workshops.
+                        </p>
+                    </div>
+    
+                    <div class="person-detail mb-6">
+                        <p class="text-xl font-semibold">Marketing Lead: Ashith K E</p>
+                        <p class="text-lg text-justify">
+                            Ashith K E, our Marketing Lead, is responsible for promoting the community’s activities and engaging with a broader audience. His creativity and communication skills ensure that our events reach as many students as possible.
+                        </p>
+                    </div>
+    
+                    <div class="person-detail mb-6">
+                        <p class="text-xl font-semibold">Event Lead: Anvith S U</p>
+                        <p class="text-lg text-justify">
+                            As Event Lead, Anvith S U organizes workshops, hackathons, and meetups that bring our community together. His passion for event planning and collaboration helps create experiences that are both educational and enjoyable.
+                        </p>
+                    </div>
+    
+                    <!-- Back to Blog Link -->
+                    <div class="text-center mt-8">
+                        <a href="../blogs.html" class="text-blue-500 hover:underline">Back to Blog Listings</a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    
 
     <footer class="bg-blue-700 text-white py-8 mt-16">
         <div class="container mx-auto md:text-left">
